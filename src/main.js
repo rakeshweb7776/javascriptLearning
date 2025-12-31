@@ -5,6 +5,7 @@ import { setupCounter } from './counter.js'
 import {dataTypes} from './02_data_types.js'
 import { conversionsOprators } from './03_conversionsOprators.js'
 import { comparision } from './04_comparision.js'
+import { dataTypeSummary } from './05_data_types_summary.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -28,3 +29,4 @@ setupCounter(document.querySelector('#counter'))
 dataTypes()
 conversionsOprators()
 comparision()
+dataTypeSummary()
