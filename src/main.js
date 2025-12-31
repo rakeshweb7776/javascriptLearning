@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 import {dataTypes} from './02_data_types.js'
 import { conversionsOprators } from './03_conversionsOprators.js'
+import { comparision } from './04_comparision.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -26,3 +27,4 @@ document.querySelector('#app').innerHTML = `
 setupCounter(document.querySelector('#counter'))
 dataTypes()
 conversionsOprators()
+comparision()
