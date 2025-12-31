@@ -28,7 +28,7 @@ export function dataTypeSummary() {
     /* Array */
     const heros = ['shaktiman', 'naagraj', 'doga']
     console.log(heros);
-    console.log("heros - ",typeof heros);
+    console.log("heros - ", typeof heros);
 
 
     /* Object */
@@ -38,7 +38,7 @@ export function dataTypeSummary() {
         email: "rakesh@gmail.com"
     }
     console.log(myObject);
-    console.log("myObject - ",typeof myObject);
+    console.log("myObject - ", typeof myObject);
 
 
     /* Functions */
@@ -46,8 +46,32 @@ export function dataTypeSummary() {
         console.log("Hello World");
     }
     myFunction()
-    console.log("myFunction - ",typeof myFunction);
+    console.log("myFunction - ", typeof myFunction);
 
 
+    /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+    /*                    Memory Types                               */
+    /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+    /* Stack (Primitive) , Heap (Non Primitive) */
+
+    let myYoutubeName = "1st youtubeChannalName"
+
+    let anothername = myYoutubeName;
+    anothername = "2nd NewYoutubeChannaleName"
+    console.log(myYoutubeName);
+    console.log(anothername);
+
+    let user_1 = {
+        name: "rakesh",
+        email: "rakesh@gmail.com"
+    }
+
+    let user_2 = user_1;
+
+    user_2.email = "updatedEmail@gmail.com"
+
+    console.log(user_1.email);
+    console.log(user_2.email);
 
 }
