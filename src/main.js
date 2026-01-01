@@ -12,6 +12,7 @@ import { numsAndMaths } from './01_basics/07_nums_and_maths.js'
 import { dateAndTime } from './01_basics/08_date_time.js'
 /* 02 Basic */
 import { array } from './02_basics/01_array.js'
+import { array_2 } from './02_basics/02_array.js'
 
 
 
@@ -32,4 +33,5 @@ document.querySelector('#app').innerHTML = `
 // string()
 // numsAndMaths()
 // dateAndTime()
-array()
+// array()
+array_2();
