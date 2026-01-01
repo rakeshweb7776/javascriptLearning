@@ -42,4 +42,28 @@ export function objects_2() {
 
     console.log(userObject.hasOwnProperty("isLoggedIn")) // to check key exist or not
 
+
+
+    /* Destructuring in Javascript */
+
+    const course = {
+        courseName: "Javascript",
+        price: 999,
+        courseInstructor: "Hitesh"
+    }
+
+    const { courseName, courseInstructor, price } = course
+    console.log(courseName);
+    console.log(price);
+    console.log(courseInstructor);
+
+
+    // Json Formats
+    [
+        {},
+        {},
+        {}
+    ]
+
+
 }
