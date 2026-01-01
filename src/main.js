@@ -7,6 +7,7 @@ import { conversionsOprators } from './03_conversionsOprators.js'
 import { comparision } from './04_comparision.js'
 import { dataTypeSummary } from './05_data_types_summary.js'
 import { string } from './06_string.js'
+import { numsAndMaths } from './07_nums_and_maths.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -31,4 +32,5 @@ setupCounter(document.querySelector('#counter'))
 // conversionsOprators()
 // comparision()
 // dataTypeSummary()
-string()
+// string()
+numsAndMaths()
