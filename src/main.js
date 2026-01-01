@@ -8,6 +8,7 @@ import { comparision } from './04_comparision.js'
 import { dataTypeSummary } from './05_data_types_summary.js'
 import { string } from './06_string.js'
 import { numsAndMaths } from './07_nums_and_maths.js'
+import { dateAndTime } from './08_date_time.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -33,4 +34,5 @@ setupCounter(document.querySelector('#counter'))
 // comparision()
 // dataTypeSummary()
 // string()
-numsAndMaths()
+// numsAndMaths()
+dateAndTime()
