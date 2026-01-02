@@ -15,6 +15,8 @@ import { array } from './02_basics/01_array.js'
 import { array_2 } from './02_basics/02_array.js'
 import { objects_1 } from './02_basics/03_objects.js'
 import { objects_2 } from './02_basics/04_objects.js'
+import { function_1 } from './03_basics/01_functions.js'
+import { scope_1 } from './03_basics/02_scope.js'
 
 
 
@@ -38,4 +40,6 @@ document.querySelector('#app').innerHTML = `
 // array()
 // array_2();
 // objects_1()
-objects_2()
+// objects_2()
+// function_1()
+scope_1()
