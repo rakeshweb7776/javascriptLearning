@@ -17,6 +17,7 @@ import { objects_1 } from './02_basics/03_objects.js'
 import { objects_2 } from './02_basics/04_objects.js'
 import { function_1 } from './03_basics/01_functions.js'
 import { scope_1 } from './03_basics/02_scope.js'
+import { arrow_function } from './03_basics/03_arrow_function.js'
 
 
 
@@ -42,4 +43,5 @@ document.querySelector('#app').innerHTML = `
 // objects_1()
 // objects_2()
 // function_1()
-scope_1()
+// scope_1()
+arrow_function()
