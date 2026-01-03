@@ -18,6 +18,7 @@ import { objects_2 } from './02_basics/04_objects.js'
 import { function_1 } from './03_basics/01_functions.js'
 import { scope_1 } from './03_basics/02_scope.js'
 import { arrow_function } from './03_basics/03_arrow_function.js'
+import { iife } from './03_basics/04_iife.js'
 
 
 
@@ -44,4 +45,5 @@ document.querySelector('#app').innerHTML = `
 // objects_2()
 // function_1()
 // scope_1()
-arrow_function()
+// arrow_function()
+iife()
