@@ -42,7 +42,7 @@ export function whileLoop() {
   map.set('In', "India")
 
   for (const [key, value] of map) {
-   // console.log(key, ":-", value);
+    // console.log(key, ":-", value);
   }
 
   const myObj = {
@@ -68,16 +68,53 @@ export function whileLoop() {
 
   // for in loop for Object
   for (const key in myLeng) {
-  //  console.log(`${key} shortcut is for ${myLeng[key]}`);
+    //  console.log(`${key} shortcut is for ${myLeng[key]}`);
   }
-
 
   // for in loop for Array
   for (const key in month) {
-   // console.log(month[key]);
+    // console.log(month[key]);
   }
 
-  for (const key in map) {
-    console.log(key);
+
+  // Foreach Loop
+
+  month.forEach(function (val) {
+    //console.log(val);
+  })
+
+  month.forEach(element => {
+    // console.log(element);
+  });
+
+  month.forEach((item) => {
+    //console.log(item);
+  })
+
+  function printMe(item) {
+    console.log(item);
   }
+
+  // month.forEach(printMe)
+
+
+  month.forEach((item, index, arr) => {
+    //  console.log(item, index, arr);
+  })
+
+
+  const languages = [
+    { title: "JavaScript", lang: "js" },
+    { title: "Python", lang: "py" },
+    { title: "TypeScript", lang: "ts" },
+    { title: "Java", lang: "java" },
+    { title: "C++", lang: "cpp" }
+  ]
+
+  languages.forEach((item) => {
+    console.log(item.title);
+  })
+
+
+
 }
