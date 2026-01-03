@@ -22,6 +22,7 @@ import { iife } from './03_basics/04_iife.js'
 import { one } from './04_control_flow/one.js'
 import { forLoop } from './05_iterations/01_for_loop.js'
 import { whileLoop } from './05_iterations/02_while_loop.js'
+import { forEach_map_filter_reduce } from './05_iterations/03_forEach_map_filter_reduce.js'
 
 
 
@@ -52,4 +53,5 @@ document.querySelector('#app').innerHTML = `
 // iife()
 // one()
 // forLoop()
-whileLoop()
+// whileLoop()
+forEach_map_filter_reduce()

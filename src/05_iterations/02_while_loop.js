@@ -77,44 +77,4 @@ export function whileLoop() {
   }
 
 
-  // Foreach Loop
-
-  month.forEach(function (val) {
-    //console.log(val);
-  })
-
-  month.forEach(element => {
-    // console.log(element);
-  });
-
-  month.forEach((item) => {
-    //console.log(item);
-  })
-
-  function printMe(item) {
-    console.log(item);
-  }
-
-  // month.forEach(printMe)
-
-
-  month.forEach((item, index, arr) => {
-    //  console.log(item, index, arr);
-  })
-
-
-  const languages = [
-    { title: "JavaScript", lang: "js" },
-    { title: "Python", lang: "py" },
-    { title: "TypeScript", lang: "ts" },
-    { title: "Java", lang: "java" },
-    { title: "C++", lang: "cpp" }
-  ]
-
-  languages.forEach((item) => {
-    console.log(item.title);
-  })
-
-
-
 }
