@@ -20,6 +20,7 @@ import { scope_1 } from './03_basics/02_scope.js'
 import { arrow_function } from './03_basics/03_arrow_function.js'
 import { iife } from './03_basics/04_iife.js'
 import { one } from './04_control_flow/one.js'
+import { forLoop } from './05_iterations/01_for_loop.js'
 
 
 
@@ -48,4 +49,5 @@ document.querySelector('#app').innerHTML = `
 // scope_1()
 // arrow_function()
 // iife()
-one()
+// one()
+forLoop()
