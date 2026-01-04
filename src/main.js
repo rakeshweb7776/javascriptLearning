@@ -27,6 +27,8 @@ import { dom_1 } from './06_dom/01_dom.js'
 import { dom_2 } from './06_dom/02_dom.js'
 import { dom_3 } from './06_dom/03_dom.js'
 import { color_change } from './07_projects/01_color_change.js'
+import { bmi_calculator } from './07_projects/02_bmi_calculator.js'
+import { digital_watch } from './07_projects/03_digital_watch.js'
 
 
 
@@ -83,4 +85,6 @@ document.querySelector('#app').innerHTML = `
 // dom_1()
 // dom_2()
 // dom_3()
-color_change()
+// color_change()
+// bmi_calculator()
+digital_watch()
