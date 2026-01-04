@@ -26,8 +26,10 @@ export function dom_3() {
         li.innerHTML = `${language}`
         document.querySelector('.language').appendChild(li)
     }
-    addLanguage("PHP")
-    addLanguage("HTML")
+    // addLanguage("PHP")
+    // addLanguage("HTML")
+
+
 
 
     function addOptionLeng(langName) {
@@ -36,23 +38,39 @@ export function dom_3() {
         document.querySelector('.language').appendChild(li)
     }
 
-    addOptionLeng('JSON')
-    addOptionLeng('Fire Base')
-    addOptionLeng('Go lang')
-
-// Edit
-const secondLeng = document.querySelector("li:nth-child(2)")
-// secondLeng.innerHTML = "Mojo";
-const newLi = document.createElement('li')
-newLi.textContent = "Testing Leng"
-
-secondLeng.replaceWith(newLi)
+    // addOptionLeng('JSON')
+    // addOptionLeng('Fire Base')
+    // addOptionLeng('Go lang')
 
 
-// remove
-const lastLang = document.querySelector('li:last-child')
-lastLang.remove()
+    /* Add language child using form input and button */
+    document.getElementById('submitBtn').addEventListener('click', function () {
+        const lengName = document.getElementById('langInput').value;
+        addOptionLeng(lengName);
+        document.getElementById('langInput').value = "";
+    });
+
+    const input = document.getElementById('langInput');
+    input.addEventListener('keydown', function (event) {
+        if (event.key === 'Enter') {
+            addOptionLeng(this.value);
+            this.value = ""
+        }
+    });
 
 
+
+    // Edit
+    const secondLeng = document.querySelector("li:nth-child(2)")
+    // secondLeng.innerHTML = "Mojo";
+    const newLi = document.createElement('li')
+    newLi.textContent = "Testing Leng"
+
+    secondLeng.replaceWith(newLi)
+
+
+    // remove
+    const lastLang = document.querySelector('li:last-child')
+    lastLang.remove()
 
 }

@@ -45,7 +45,8 @@ document.querySelector('#app').innerHTML = `
     </div>
 
     <hr/>
-    <input id="langInput" placeholder"Add language" onclick(addLanguage("Rakesh"))>
+    <input id="langInput" placeholder"Add language">
+    <button id="submitBtn">Add language</button>
     <ul class="language">
     <li>Javascript</li> 
     </ul>
