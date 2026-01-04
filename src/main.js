@@ -23,6 +23,9 @@ import { one } from './04_control_flow/one.js'
 import { forLoop } from './05_iterations/01_for_loop.js'
 import { whileLoop } from './05_iterations/02_while_loop.js'
 import { forEach_map_filter_reduce } from './05_iterations/03_forEach_map_filter_reduce.js'
+import { dom_1 } from './06_dom/01_dom.js'
+import { dom_2 } from './06_dom/02_dom.js'
+import { dom_3 } from './06_dom/03_dom.js'
 
 
 
@@ -32,6 +35,22 @@ document.querySelector('#app').innerHTML = `
       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
     </a>
     <h1>Hello Javascript!</h1>
+
+    
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tudesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thusday</div>
+    </div>
+
+    <hr/>
+    <input id="langInput" placeholder"Add language" onclick(addLanguage("Rakesh"))>
+    <ul class="language">
+    <li>Javascript</li> 
+    </ul>
+
+
   </div>
 `
 
@@ -54,4 +73,7 @@ document.querySelector('#app').innerHTML = `
 // one()
 // forLoop()
 // whileLoop()
-forEach_map_filter_reduce()
+// forEach_map_filter_reduce()
+// dom_1()
+// dom_2()
+dom_3()
