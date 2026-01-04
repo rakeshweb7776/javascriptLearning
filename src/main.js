@@ -26,6 +26,7 @@ import { forEach_map_filter_reduce } from './05_iterations/03_forEach_map_filter
 import { dom_1 } from './06_dom/01_dom.js'
 import { dom_2 } from './06_dom/02_dom.js'
 import { dom_3 } from './06_dom/03_dom.js'
+import { color_change } from './07_projects/01_color_change.js'
 
 
 
@@ -35,7 +36,11 @@ document.querySelector('#app').innerHTML = `
       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
     </a>
     <h1>Hello Javascript!</h1>
+    <hr style="margin:20px;"/>
 
+   
+
+    <hr style="margin:20px;"/>
     
     <div class="parent">
         <div class="day">Monday</div>
@@ -44,7 +49,7 @@ document.querySelector('#app').innerHTML = `
         <div class="day">Thusday</div>
     </div>
 
-    <hr/>
+   <hr style="margin:20px;"/>
     <input id="langInput" placeholder"Add language">
     <button id="submitBtn">Add language</button>
     <ul class="language">
@@ -77,4 +82,5 @@ document.querySelector('#app').innerHTML = `
 // forEach_map_filter_reduce()
 // dom_1()
 // dom_2()
-dom_3()
+// dom_3()
+color_change()

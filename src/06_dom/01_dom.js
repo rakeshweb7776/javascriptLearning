@@ -24,23 +24,4 @@ const dayOne = document.querySelector('.day')
 
 
 // console.log("Nodes: ", parent.childNodes);
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
- 
- 
-
 }
