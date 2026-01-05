@@ -29,6 +29,8 @@ import { dom_3 } from './06_dom/03_dom.js'
 import { color_change } from './07_projects/01_color_change.js'
 import { bmi_calculator } from './07_projects/02_bmi_calculator.js'
 import { digital_watch } from './07_projects/03_digital_watch.js'
+import { event_01 } from './08_events/01_image_events.js'
+import { event_02 } from './08_events/02_rendom_color_change_events.js'
 
 
 
@@ -87,4 +89,6 @@ document.querySelector('#app').innerHTML = `
 // dom_3()
 // color_change()
 // bmi_calculator()
-digital_watch()
+// digital_watch()
+// event_01()
+event_02()
