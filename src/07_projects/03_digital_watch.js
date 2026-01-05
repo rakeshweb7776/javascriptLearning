@@ -15,4 +15,6 @@ export function digital_watch() {
         digitalWath.innerHTML = currTime;
     }, 1000)
 
+    console.log('Rakesh')
+
 }
