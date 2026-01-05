@@ -31,6 +31,7 @@ import { bmi_calculator } from './07_projects/02_bmi_calculator.js'
 import { digital_watch } from './07_projects/03_digital_watch.js'
 import { event_01 } from './08_events/01_image_events.js'
 import { event_02 } from './08_events/02_rendom_color_change_events.js'
+import { get_key } from './08_events/03_get_key.js'
 
 
 
@@ -91,4 +92,5 @@ document.querySelector('#app').innerHTML = `
 // bmi_calculator()
 // digital_watch()
 // event_01()
-event_02()
+// event_02()
+get_key()
